@@ -25,6 +25,7 @@ Now we want to create a mode to play Fastbuilder.
 2. Go to the spawn of your island and type: /fb set <modename> <islandnumber>
 3. (optional) Go to your plugins folder and open the arenas.yml file. There you can configure where the Mode Switcher NPC should stand
 4. Join the arena
+
 4.1. On a single server: Type: /fb join <modename>
 4.2. On a Bungeecord server: Rejoin your server or use 4.1 if you don't want to rejoin
 
