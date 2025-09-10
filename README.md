@@ -28,3 +28,9 @@ Now we want to create a mode to play Fastbuilder. Please make sure that your map
 - On a single server: Type: `/fb join <modename>`
 - On a Bungeecord server: Rejoin your server or use 4.1 if you don't want to rejoin
 
+## Other useful commands
+Here you can see what every command does in detail.
+
+- `/fb removemode <modename>` || Remove a mode from Fastbuilder
+- `/fb setcoins <user> <amount>` || Set a users amount of coins (sertcoins sets the coins on top of the current amount of coins the user has)
+- `/fb addcoins <user> <amount>` || Add coins to an user (addcoins adds the coins on top of the current amount of coins the user has)
