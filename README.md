@@ -26,7 +26,7 @@ Now we want to create a mode to play Fastbuilder. Please make sure that your map
 3. _(optional)_ Go to your plugins folder and open the arenas.yml file. There you can configure where the Mode Switcher NPC should stand
 4. Join the arena
 - On a single server: Type: `/fb join <modename>`
-- On a Bungeecord server: Rejoin your server or use 4.1 if you don't want to rejoin
+- On a Bungeecord server: Rejoin your server or use the single server variant if you don't want to rejoin
 
 ## Other useful commands
 Here you can see what every command does in detail.
