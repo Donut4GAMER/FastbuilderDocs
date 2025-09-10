@@ -19,7 +19,7 @@ If you bought MinusOne's Fastbuilder make sure to join his Discord: https://disc
 6. Reboot your server and you are ready to go
 
 ## Setup Arenas
-Now we want to create a mode to play Fastbuilder.
+Now we want to create a mode to play Fastbuilder. Please make sure that your map points to the south, also you can not set the deathhight yet. The finish will be golden pressure plates. 
 
 1. Type: /fb addmode <modename> <is diagonal (yes/no> || Please not that Diagonal has bugs in it! MinusOne is fixing it soon
 2. Go to the spawn of your island and type: /fb set <modename> <islandnumber>
