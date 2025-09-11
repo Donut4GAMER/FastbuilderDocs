@@ -21,7 +21,7 @@ If you bought MinusOne's Fastbuilder make sure to join his Discord: https://disc
 ## Setup Arenas
 Now we want to create a mode to play Fastbuilder. Please make sure that your map points to the south, also you can not set the deathhight yet. The finish will be golden pressure plates. 
 
-1. Type: `/fb addmode <modename> <is diagonal (yes/no)>` || Please not that Diagonal has bugs in it! MinusOne is fixing it soon
+1. Type: `/fb addmode <modename> <is diagonal (yes/no)>` Please note that Diagonal has bugs in it! MinusOne is fixing it soon
 2. Go to the spawn of your island and type: `/fb set <modename> <islandnumber>`
 3. _(optional)_ Go to your plugins folder and open the arenas.yml file. There you can configure where the Mode Switcher NPC should stand
 4. Join the arena
@@ -31,6 +31,13 @@ Now we want to create a mode to play Fastbuilder. Please make sure that your map
 ## Other useful commands
 Here you can see what every command does in detail.
 
-- `/fb removemode <modename>` || Remove a mode from Fastbuilder
-- `/fb setcoins <user> <amount>` || Set a users amount of coins (sertcoins sets the coins on top of the current amount of coins the user has)
-- `/fb addcoins <user> <amount>` || Add coins to an user (addcoins adds the coins on top of the current amount of coins the user has)
+- `/fb removemode <modename>` Remove a mode from Fastbuilder
+- `/fb setcoins <user> <amount>` Set a users amount of coins (sertcoins sets the coins on top of the current amount of coins the user has)
+- `/fb addcoins <user> <amount>` Add coins to an user (addcoins adds the coins on top of the current amount of coins the user has)
+
+## Enable namecolors in the Scoreboard
+For this you need to have Luckperms installed on your server. You also need to have ranks set up already.
+
+1. Go into the config.yml
+2. Find this: `luckperms-support: false` and set it to true
+3. Restart your server and you are done
