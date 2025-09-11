@@ -42,8 +42,8 @@ For this you need to have Luckperms installed on your server. You also need to h
 2. Find this: `luckperms-support: false` and set it to true
 3. Restart your server and you are done
 
-## Manage when you get TPed back
-You can setup where players should get TPed back, so after how many blocks arount the map (this does NOT count for everything going to south)
+## Manage when you get tp'd back
+You can setup where players should get tp'd back, so after how many blocks arount the map (this does NOT count for everything going to south)
 
 1. Open the config.yml
 2. Locate this: `max-distance: 4` and set it to an number you want (e.g. 6)
