@@ -48,3 +48,19 @@ You can setup where players should get tp'd back, so after how many blocks aroun
 1. Open the config.yml
 2. Locate this: `max-distance: 4` and set it to an number you want (e.g. 6)
 3. Save the config and reboot your server
+
+## Setup GUI's correctly
+If you want to customise the GUI's you need for this example an existing mode (if you don't know how to set it up read **Setup Arenas**.
+
+1. Open the guis.yml
+2. Search for this: `mode-changer-slots:`
+3. Then you do this:
+   ```mode-changer-slots:
+  1: # the page number
+    1: # the slotnumber
+      name: "&6<modename>" # the display name in the gui
+      material: SANDSTONE:0 # the item/block that should be there
+      mode: "<modename>" # the mode players should join on interaction
+      lore: # the text shown under this item in the gui
+        - "&r&7A Fastbuilder Map"```
+4. Click save and reboot your server.
