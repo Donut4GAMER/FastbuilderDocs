@@ -55,12 +55,12 @@ If you want to customise the GUI's you need for this example an existing mode (i
 1. Open the guis.yml
 2. Search for this: `mode-changer-slots:`
 3. Then you do this:
-   ```mode-changer-slots:
+   ``mode-changer-slots:
   1: # the page number
     1: # the slotnumber
       name: "&6<modename>" # the display name in the gui
       material: SANDSTONE:0 # the item/block that should be there
       mode: "<modename>" # the mode players should join on interaction
       lore: # the text shown under this item in the gui
-        - "&r&7A Fastbuilder Map"```
+        - "&r&7A Fastbuilder Map"``
 4. Click save and reboot your server.
